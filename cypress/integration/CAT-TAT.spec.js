@@ -11,7 +11,7 @@ describe('Central de atendimento ao cliente TAT', function(){ //define a suite d
     })
     it('verifica o título da aplicação', function(){ 
         
-        cy.title().should('eq','Central de Atendimento ao Cliente TATT') // fornece(yields the documents title as a string)
+        cy.title().should('eq','Central de Atendimento ao Cliente TAT') // fornece(yields the documents title as a string)
     })
     it('preenche os campos obrigatórios e envia formulário',()=>{
         const longText = 'testando o delay do teste do default 10 para 0, para rodar rápido'
